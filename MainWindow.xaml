@@ -1,0 +1,24 @@
+﻿<Window x:Class="Рекламное_агенство.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Рекламное_агенство"
+        mc:Ignorable="d"
+        Title="Рекламодатели" Height="450" Width="800">
+    <Grid>
+        <TextBox HorizontalAlignment="Left" Height="27" Margin="32,44,0,0" TextWrapping="Wrap" Text="Наименование" VerticalAlignment="Top" Width="252" Name="tb_Name"/>
+        <TextBox HorizontalAlignment="Left" Height="28" Margin="32,79,0,0" TextWrapping="Wrap" Text="Адрес" VerticalAlignment="Top" Width="252" Name="tb_Adress"/>
+        <TextBox HorizontalAlignment="Left" Height="27" Margin="32,115,0,0" TextWrapping="Wrap" Text="Руководитель" VerticalAlignment="Top" Width="252" Name="tb_Supervisor"/>
+        <TextBox HorizontalAlignment="Left" Height="28" Margin="32,151,0,0" TextWrapping="Wrap" Text="Телефон" VerticalAlignment="Top" Width="252" Name="tb_Telephone"/>
+        <TextBox HorizontalAlignment="Left" Height="27" Margin="32,187,0,0" TextWrapping="Wrap" Text="Оплата" VerticalAlignment="Top" Width="252" Name="tb_Payment"/>
+        <TextBox HorizontalAlignment="Left" Height="27" Margin="32,222,0,0" TextWrapping="Wrap" Text="Издание" VerticalAlignment="Top" Width="252" Name="tb_Edition"/>
+        <TextBox HorizontalAlignment="Left" Height="27" Margin="32,258,0,0" TextWrapping="Wrap" Text="Место размещения" VerticalAlignment="Top" Width="252" Name="tb_Place"/>
+        <ListBox HorizontalAlignment="Left" Height="331" Margin="390,25,0,0" VerticalAlignment="Top" Width="379" x:Name="lb1"/>
+        <Button Content="Вывести все" HorizontalAlignment="Left" Margin="390,376,0,0" VerticalAlignment="Top" Width="379" Height="23" Click="bt_All"/>
+        <Button Content="Подтвердить" HorizontalAlignment="Left" Margin="32,320,0,0" VerticalAlignment="Top" Width="252" Height="23" Click="bt_Accept"/>
+        <ComboBox HorizontalAlignment="Left" Margin="32,293,0,0" VerticalAlignment="Top" Width="252" Name="cb1"/>
+        <Button Content="Заявки" Click="bt_add" Margin="289,293,421.6,99"/>
+        <Button Content="Справочник" HorizontalAlignment="Left" Margin="32,348,0,0" VerticalAlignment="Top" Width="252" Click="bt_Sparvochnik"/>
+    </Grid>
+</Window>

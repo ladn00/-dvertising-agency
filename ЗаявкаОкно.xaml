@@ -1,0 +1,24 @@
+﻿<Window x:Class="Рекламное_агенство.ЗаявкаОкно"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Рекламное_агенство"
+        mc:Ignorable="d"
+        Title="Заявки" Height="450" Width="800">
+    <Grid>
+        <TextBox HorizontalAlignment="Left" Height="27" Margin="32,44,0,0" TextWrapping="Wrap" Text="Вид рекламы" VerticalAlignment="Top" Width="252" x:Name="tb_Type"/>
+        <TextBox HorizontalAlignment="Left" Height="28" Margin="32,79,0,0" TextWrapping="Wrap" Text="Объем" VerticalAlignment="Top" Width="252" x:Name="tb_Vol"/>
+        <TextBox HorizontalAlignment="Left" Height="27" Margin="32,115,0,0" TextWrapping="Wrap" Text="Желаемые издания" VerticalAlignment="Top" Width="252" x:Name="tb_Editors"/>
+        <TextBox HorizontalAlignment="Left" Height="28" Margin="32,151,0,0" TextWrapping="Wrap" Text="Количество выходов рекламы" VerticalAlignment="Top" Width="252" x:Name="tb_Count"/>
+        <TextBox HorizontalAlignment="Left" Height="27" Margin="32,187,0,0" TextWrapping="Wrap" Text="Доп. информация" VerticalAlignment="Top" Width="252" x:Name="tb_Dop"/>
+        <ListBox HorizontalAlignment="Left" Height="331" Margin="354,25,0,0" VerticalAlignment="Top" Width="415" x:Name="lb1"/>
+        <Button Content="Отчетность" HorizontalAlignment="Left" Margin="32,255,0,0" VerticalAlignment="Top" Width="252" Height="23" Click="bt_Otch"/>
+        <Button Content="Вывести все" HorizontalAlignment="Left" Margin="579,374,0,0" VerticalAlignment="Top" Width="190" Height="23" Click="bt_All"/>
+        <Button Content="Подтвердить" HorizontalAlignment="Left" Margin="32,227,0,0" VerticalAlignment="Top" Width="252" Height="23" Click="bt_Accept"/>
+        <Button Content="Выполнить заявку" HorizontalAlignment="Left" Margin="354,374,0,0" VerticalAlignment="Top" Width="206" Height="23" Click="bt_Status"/>
+        <TextBox HorizontalAlignment="Left" Height="27" Margin="32,342,0,0" TextWrapping="Wrap" Text="Дата" VerticalAlignment="Top" Width="252" x:Name="tb_Date"/>
+        <Button Content="Выполнить поиск по дате" HorizontalAlignment="Left" Margin="32,374,0,0" VerticalAlignment="Top" Width="252" Height="23" Click="bt_Search"/>
+
+    </Grid>
+</Window>
